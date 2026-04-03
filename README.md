@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portafolio Personal — PFO1
 
 El presente proyecto forma parte de la materia Desarrollo de sistemas web- Front end, Practica Formativa Obligatoria 1.
@@ -60,3 +61,7 @@ Consiste en una landing page de portafolio personal construida únicamente con H
 - [] El diseño es responsivo y se visualiza correctamente en distintos dispositivos 
 - [x] Se aplicaron buenas prácticas de accesibilidad (atributo `alt` en todas las imágenes y `label` vinculados a cada input).
 - [x] Se añadieron comentarios adicionales con decisiones de diseño e ideas de mejora futura.
+=======
+# Portafolio-Karina-PFO1
+Este proyecto corresponde a la Práctica Formativa Obligatoria 1, de la materia de Desarrollo de Sistemas Web- FrontEnd. Consiste en una landing page de portafolio personal construida únicamente con HTML y CSS, publicada en vercel.
+>>>>>>> c5d13ad5c7904a9876a61528d41f97ad6ded5756
