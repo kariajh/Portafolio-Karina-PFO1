@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+
+    <!--CSS-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--Fuentes de Googe Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Logo y titulo principal-->
+   <header class="clase-encabezado">
+      <div class="contenido-encabezado">
+        <span class="logo"> Desarrolladora de Software</span>
+        <p class="titulo-encabezado"> Portafolio Karina - 2026</p>
+      </div>
+
+   </header>
+    <!--NAV: Barra de navegacion -->
+    <nav class="clase-nav">
+        <ul class="lista-nav">
+            <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+            <li><a href="#proyectos"  class="nav-link">Proyectos</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#contacto"  class="nav-link">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!--MAIN: Contenido principal-->
+    <!--Mejora: agregar animacion de fondo-->
+    <main class="clase-main">
+        <!--Presentacion personal-->
+        <!--Mejora: agregar link para la descarga de CV-->
+        <section id="sobre-mi">
+           <div class="sobremi-texto">
+                <span class="sobremi-tag">Hola, soy</span>
+                <h1 class="sobremi-nombre">Karina</h1>
+                <p class="sobremi-bio">
+                    Estudiante de la Tecnicatura de Desarrollo de Software. Mi objetivo es brindar soluciones tecnologicas
+                    para la optimizacion de procesos.
+                </p>
+                <a href="#contacto" class="contacto-link">Contacto</a>
+           </div>
+           <div class="sobremi-img">
+                <img src="img/avatar-mujer-convertido-a-pequeño.jpeg" alt="Imagen de avatar">
+           </div>
+        </section>
+
+        <!--Tarjetas de Proyectos-->
+        <!--Mejora: si los proyectos son mas de tres, poder optar por una animacion tipo carrousell-->
+        <section id="proyectos" class="seccion-proyectos">
+            <h2 class="seccion-titulo">Proyectos</h2>
+            <div class="proyecto-contenedor">
+                <article class="tarjetas">
+                    <img
+                        src="img/Proyecto1.jpg"
+                        alt="Pantalla de código con editor de texto y líneas de colores"
+                        class="tarj-img"
+                    />
+                    <div class="tarjeta-contenido">
+                        <h3 class="tarj-titulo">Royal Hotel</h3>
+                        <p class="tarj-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. harum iusto alias libero, perferendis saepe neque.</p>
+                        <a href="#" class="tarj-link">Ver proyecto →</a>
+                    </div>
+                </article>
+
+                <article class="tarjetas">
+                    <img
+                        src="img/Proyecto2.jpg"
+                        alt="Pantalla de código con editor de texto y líneas de colores"
+                        class="tarj-img"
+                    />
+                    <div class="tarjeta-contenido">
+                        <h3 class="tarj-titulo">Healty Lifestyle Apphome</h3>
+                        <p class="tarj-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. harum iusto alias libero, perferendis saepe neque.</p>
+                        <a href="#" class="tarj-link">Ver proyecto →</a>
+                    </div>
+                </article>
+
+                <article class="tarjetas">
+                    <img
+                        src="img/Proyecto3.png"
+                        alt="Pantalla de código con editor de texto y líneas de colores"
+                        class="tarj-img"
+                    />
+                    <div class="tarjeta-contenido">
+                        <h3 class="tarj-titulo">App Club Deportivo</h3>
+                        <p class="tarj-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. harum iusto alias libero, perferendis saepe neque.</p>
+                        <a href="#" class="tarj-link">Ver proyecto →</a>
+                    </div>
+                </article>
+            </div>
+              
+        </section>
+
+        <!-- ── Sección: Habilidades ── -->
+  
+    <section id="habilidades" class="seccion-habilidades">
+      <h2 class="seccion-titulo">Habilidades</h2>
+
+        <div class="habilidad-grupo">
+          <h3 class="Habilidad-titulo">Tecnologías que empleo</h3>
+          <ul class="habilidad-lista">
+            <li class="habilidad-item">HTML5</li>
+            <li class="habilidad-item">CSS3</li>
+            <li class="habilidad-item">JavaScript</li>
+            <li class="habilidad-item">GitHub</li>
+            <li class="habilidad-item">Git</li>
+          </ul>
+        </div>
+
+    </section>
+
+    <!-- ── Sección: Películas Favoritas ── -->
+    <!-- Mejora futura: conectar con la API de TMDB para mostrar info dinámica -->
+    <section id="peliculas" class="seccion-peliculas">
+      <h2 class="seccion-titulo">Mis 3 Películas Favoritas</h2>
+      <div class="pelicula-contenedor">
+
+        <article class="pelicula-card">
+          <img
+            src="img/interstellar.jpg"
+            alt="Escena cinematográfica"
+            class="pelicula-img"
+          />
+          <div class="pelicula-info">
+            <span class="pelicula-rank">#1</span>
+            <h3 class="pelicula-titulo"> Interestellar(2014)</h3>
+            <p class="pelicula-descrip">Una odisea espacial que combina ciencia real con emoción humana. La escena del planeta oceánico me dejó sin palabras. Nolan en su mejor momento.</p>
+          </div>
+        </article>
+
+        <article class="pelicula-card">
+          <img
+            src="img/robocop.jpg"
+            alt="Imagen del actor"
+            class="pelicula-img"
+          />
+          <div class="pelicula-info">
+            <span class="pelicula-rank">#2</span>
+            <h3 class="pelicula-titulo">Robocop</h3>
+            <p class="pelicula-descrip">La película que me hizo querer entender cómo funciona la tecnología. Filosofía, acción y efectos especiales revolucionarios para su época.</p>
+          </div>
+        </article>
+
+        <article class="pelicula-card">
+          <img
+            src="img/todo-en-todas-partes-al-mismo-tiempo.jpg"
+            alt="Imagen de la protagonista"
+            class="pelicula-img"
+          />
+          <div class="pelicula-info">
+            <span class="pelicula-rank">#3</span>
+            <h3 class="pelicula-titulo">Everything Everywhere All at Once (2022)</h3>
+            <p class="pelicula-descrip">Un multiverso caótico que en el fondo habla de amor y aceptación. Creativa, emotiva y completamente única. Difícil de describir, imposible de olvidar.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── Sección: Formulario de Contacto ── -->
+    <!-- Mejora: opcion de contacto por Whatsapp-->
+    <section id="contacto">
+      <h2 class="seccion-titulo">Contacto</h2>
+      <p class="seccion-intro">¿Tenés un proyecto en mente? Mandame un mensaje y hablamos.</p>
+      <div class="formulario-contenido">
+        <form class="contacto-form" action="#" method="post">
+        <div class="formulario-row">
+          <div class="formulario-grupo">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="formulario-grupo">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required />
+          </div>
+        </div>
+        <div class="formulario-row">
+          <div class="formulario-grupo">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required />
+          </div>
+          <div class="formulario-grupo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 0000-0000" />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-enviar" >Enviar mensaje</button>
+        </form>
+      </div>
+      
+    </section>
+    </main>
+
+        <!-- ==========================================
+        FOOTER: Pie de página con redes sociales
+        Mejora futura: agregar un formulario de suscripción a newsletter
+        ========================================== -->
+    <footer class="seccion-footer">
+        
+        <nav class="footer-links" aria-label="Redes sociales">
+        <a href="#" class="footer-link">GitHub</a>
+        <a href="#" class="footer-link">LinkedIn</a>
+        <a href="#" class="footer-link">Twitter / X</a>
+        </nav>
+        <p class="footer-copy">© 2026 Karina· Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
